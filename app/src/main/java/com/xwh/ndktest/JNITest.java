@@ -12,6 +12,6 @@ public class JNITest {
     }
 
     //创建一个 native 方法
-    public native static String get();
+    public native static String get(String input);
 
 }

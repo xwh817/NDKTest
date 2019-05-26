@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 
         mTextView = this.findViewById(R.id.text);
 
-        mTextView.setText(JNITest.get());
+        mTextView.setText(JNITest.get("xwh"));
     }
 
 

@@ -10,10 +10,10 @@ extern "C" {
 /*
  * Class:     com_xwh_ndktest_JNITest
  * Method:    get
- * Signature: ()Ljava/lang/String;
+ * Signature: (Ljava/lang/String;)Ljava/lang/String;
  */
 JNIEXPORT jstring JNICALL Java_com_xwh_ndktest_JNITest_get
-  (JNIEnv *, jclass);
+  (JNIEnv *, jclass, jstring);
 
 #ifdef __cplusplus
 }
